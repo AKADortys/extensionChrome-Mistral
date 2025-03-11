@@ -1,12 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    width: 800px;
+    width: 700px;
 }
 
 h1 {
     text-align: center;
-    width: 100%
 }
 
 header {
@@ -19,6 +18,7 @@ header {
 }
 
 main {
+    background-color: grey;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -26,13 +26,15 @@ main {
 }
 
 #container {
-    width: 85%;
-    margin: 0 auto;
-    padding: auto;
+    width: 95%;
+    margin: 1em auto;
+    padding: 1em;
+    border: #000 solid 0.2em;
+    background-color: white;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 0.3em;
     border: 0.1em solid white;
     cursor: pointer;
     background: #007bff;
